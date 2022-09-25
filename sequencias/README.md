@@ -23,7 +23,7 @@ Imaginemos a seguinte sequência cíclica:
     Assim temos que o resto da divisão entre 51.671 por 8 é 7, então a letra na posição 51.671 da sequência "SalvadorSalvadorSalvador..." é a letra "0"
 
 Porém quando trabalhamos com strings (sequências de caracteres) em C, nem tudo são flores.
-Pois em C strings trabalham como Arrays, ou seja a primeira letra não localiza-se na posição 1, mas localiza-se na posição 0.
+Pois em C strings trabalham como Arrays, ou seja a primeira letra não localiza-se na posição 1, mas localiza-se na posição 0, a segunda letra na posição 1 e por ai vai.
 Então cabe ao programador orientar ao computador a calcular da forma correta.
 
 "Pegando" então o resto da divisão entre a posição pelo tamanho da palavra e subtraindo 1.
